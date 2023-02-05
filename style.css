@@ -4,13 +4,15 @@
   padding: 0;
   margin: 0;
 }
-
 .dekstop {
   height: 4740px;
   width: 100%;
   margin: auto;
 }
 
+.dekstop-for-media{
+  display: none;
+}
 .russian-cont {
   width: 85%;
   height: 75px;
@@ -673,6 +675,7 @@
   .dekstop-for-media {
     height: 4591px;
     width: 100%;
+    display: block;
   }
   .logo-cont-media {
     width: 95%;
